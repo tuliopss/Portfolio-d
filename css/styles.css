@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@100&family=Unbounded&display=swap');
+body {
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(28,175,151,1) 21%, rgba(0,212,255,1) 100%);
+    color: #FFF;
+    /* font-weight: bold; */
+    font-family: 'Helvetica';
+
+}
+
+span {
+    padding-bottom: 15px;
+}
+.container {
+    display: grid;
+    place-items: center;
+    row-gap: 20px;
+}
+
+
+
+.project-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(6, 66, 61);
+    width: 40em;
+    padding: 5px 10px;
+    border-radius: 25px;
+    box-shadow: 10px 10px 5px rgba(19, 19, 19, 0.76);;
+    /* padding-top: 30px; */
+
+}
+
+.title, .link, .image {
+    text-align: center;
+    font-family: 'Chivo Mono';
+}
+
+.image {
+    /* width: 65vh; */
+    width: 80%;
+    height: 40vh;
+    border-radius: 20px;
+}
+
+.link {
+    font-weight: bold;
+    text-decoration: none;
+    color: #FFF;
+    padding-bottom: 10px;
+}
+
+.link:hover {
+    color: rgb(10, 10, 10);
+}
+
+.icon-link {
+    width: 30px;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    height: 25px;
+}
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid rgb(5, 41, 158);;
+    height: 45vh;
+    max-width: 100;
+    margin: 10px;
+    margin-right: 50vh;
+    margin-left: 50vh;
+    border-radius: 50px;
+}
+.info h1{
+    font-size: 20px;
+    font-weight: bold;
+}
+.foto-perfil {
+    width: 25vh;
+    border-radius: 50%;
+}
+.network {
+    border: 2px solid white;
+}
