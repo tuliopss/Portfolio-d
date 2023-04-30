@@ -69,7 +69,8 @@ span {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    border: 1px solid rgb(5, 41, 158);;
+    border: 1px solid rgb(15, 75, 99);
+    box-shadow: 10px 10px 5px rgba(19, 19, 19, 0.76);
     height: 45vh;
     max-width: 100;
     margin: 10px;
