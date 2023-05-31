@@ -8,35 +8,33 @@
     <title>Portfólio</title>
 </head>
 <body>
+    <header>
+        <nav>
+            <a href="#skillsId">Habilidades</a>
+            <a href="#projectsId">Projetos</a>
+            <a href="#contato">Contato</a>
+        </nav>  
+    </header>
     <div class="info">
         <img class="foto-perfil" src="/images/profile.jpeg" alt="perfil" srcset="">
         <h1>Túlio Victor Pereira Santos</h1>
-
-
-            <a class="link" href="https://www.linkedin.com/in/túlio-victor-pereira-santos-884297235/" target="_blank">Linkedin</a>
-            <a class="link" href="https://github.com/tuliopss" target="_blank">GitHub</a>
+           <p>Sobre mim: </p>
 
     </div>
 
     <div class="container">
+        <div class="skills-container" id="skillsId">
+            <h2>Conhecimentos</h2>
+            <span class="skills">JavaScript ||</span>
+            <span class="skills">HTML ||</span>
+            <span class="skills">CSS ||</span>
+            <span class="skills">NodeJS ||</span>
+            <span class="skills">ReactJS ||</span>
+            <span class="skills">MongoDB</span>
+        </div>
 
         <h2>Projetos</h2>
-        <div class="project-container">
-
-            <a href="/views/search.html"><img class="icon-link" src="/images/iconlink.png" alt="icon-link" ></a>
-
-            <h3 class="title">Search Name and Avatar</h3>
-
-            <img src="/images/search.png" alt="search-name-and-avatar" class="image">
-
-            <p class="legenda">Um projeto simples que busca o nome e avatar de um usuário do GitHub, utilizando as
-            requisições via AJAX. Ele utiliza a API própria do GitHub para fazer a consulta das propriedades necessárias.</p>
-            <span> Tecnologia(s) utilizada(s): <strong>JavaScript e HTML</strong></span>
-
-            <a class="link" href="https://github.com/tuliopss/Search-name-and-avatar" target="_blank">Link github</a>
-
-        </div>
-        <div class="project-container">
+        <div class="project-container" id="projectsId">
             <h3 class="title">Calculadora</h3>
 
             <a href="views/calculadora.html"><img class="icon-link" src="/images/iconlink.png" alt="icon-link" autofocus></a>
@@ -50,6 +48,20 @@
 
 
         </div>
+
+        <div class="project-container">
+            <h3 class="title">Secret Word</h3>
+            <a href="views/secretword.html"><img class="icon-link" src="/images/iconlink.png" alt="icon-link" ></a>
+
+            <img src="/images/secret-word.png" alt="SecretWord" class="image">
+
+            <p class="legenda">Jogo de adivinhar palavras por letras, similar ao jogo da forca. O jogador tem 3 chances, e a cada palavra acertada é somado 100 pontos.</p>
+            <span>Tecnologia(s) utilizada(s): <strong>ReactJS</strong></span>
+
+            <a class="link" href="https://github.com/tuliopss/Secret-Word" target="_blank">Link github</a>
+
+        </div>
+
         <div class="project-container">
             <h3 class="title">To Do List</h3>
             <a href="views/todolist.html"><img class="icon-link" src="/images/iconlink.png" alt="icon-link"></a>
@@ -74,6 +86,25 @@
             <a class="link" href="https://github.com/tuliopss/Coffee-Shop" target="_blank">Link github</a>
 
         </div>
+
+        <div class="project-container">
+
+            <a href="/views/search.html"><img class="icon-link" src="/images/iconlink.png" alt="icon-link" ></a>
+
+            <h3 class="title">Search Name and Avatar</h3>
+
+            <img src="/images/search.png" alt="search-name-and-avatar" class="image">
+
+            <p class="legenda">Um projeto simples que busca o nome e avatar de um usuário do GitHub, utilizando as
+            requisições via AJAX. Ele utiliza a API própria do GitHub para fazer a consulta das propriedades necessárias.</p>
+            <span> Tecnologia(s) utilizada(s): <strong>JavaScript e HTML</strong></span>
+
+            <a class="link" href="https://github.com/tuliopss/Search-name-and-avatar" target="_blank">Link github</a>
+
+        </div>
+        
+        
+        
         <div class="project-container">
             <h3 class="title">Coffee Menu</h3>
             <a href="views/coffemenu.html"><img class="icon-link" src="/images/iconlink.png" alt="icon-link"></a>
@@ -111,20 +142,15 @@
             <a class="link" href="https://github.com/tuliopss/provaJava" target="_blank">Link github</a>
 
         </div>
-
-        <div class="project-container">
-            <h3 class="title">Secret Word</h3>
-            <a href="views/secretword.html"><img class="icon-link" src="/images/iconlink.png" alt="icon-link" ></a>
-
-            <img src="/images/secret-word.png" alt="SecretWord" class="image">
-
-            <p class="legenda">Jogo de adivinhar palavras por letras, similar ao jogo da forca. O jogador tem 3 chances, e a cada palavra acertada é somado 100 pontos.</p>
-            <span>Tecnologia(s) utilizada(s): <strong>ReactJS</strong></span>
-
-            <a class="link" href="https://github.com/tuliopss/Secret-Word" target="_blank">Link github</a>
-
-        </div>
 </div>
+
+<footer>
+    <div class="footer-container" id="contato">
+        <a class="link" href="https://www.linkedin.com/in/túlio-victor-pereira-santos-884297235/" target="_blank">Linkedin ||</a>
+        <a class="link" href="https://github.com/tuliopss" target="_blank">GitHub ||</a>
+        <p class="link">Email: tuliovictorp@hotmail.com</p>
+    </div>
+</footer>
 
 </body>
 </html>

@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@100&family=Unbounded&display=swap');
 body {
-    background: rgb(2,0,36);
-    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(28,175,151,1) 21%, rgba(0,212,255,1) 100%);
+    /* background: rgb(2,0,36); 
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(28,175,151,1) 21%, rgba(0,212,255,1) 100%); */
+    background-color: #0F172A;
     color: #FFF;
     /* font-weight: bold; */
     font-family: 'Helvetica';
@@ -15,6 +16,7 @@ span {
     display: grid;
     place-items: center;
     row-gap: 20px;
+    
 }
 
 
@@ -25,7 +27,7 @@ span {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgb(6, 66, 61);
+    background-color: #22376838;
     width: 40em;
     padding: 5px 10px;
     border-radius: 25px;
@@ -51,10 +53,11 @@ span {
     text-decoration: none;
     color: #FFF;
     padding-bottom: 10px;
+    margin: 10px;
 }
 
 .link:hover {
-    color: rgb(10, 10, 10);
+    color: #5f76ad;
 }
 
 .icon-link {
@@ -69,10 +72,10 @@ span {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    border: 1px solid rgb(15, 75, 99);
+    background-color: #22376838;
     box-shadow: 10px 10px 5px rgba(19, 19, 19, 0.76);
     height: 45vh;
-    max-width: 100;
+    max-width: 100%;
     margin: 10px;
     margin-right: 50vh;
     margin-left: 50vh;
@@ -85,7 +88,68 @@ span {
 .foto-perfil {
     width: 25vh;
     border-radius: 50%;
+    max-width: 100%;
 }
 .network {
     border: 2px solid white;
+}
+
+.skills-container {
+    background-color: #22376838;
+    padding: 30px;
+    padding-top: 10px;
+    margin-top: 20px;
+    box-shadow: 10px 10px 5px rgba(19, 19, 19, 0.76);
+    border-radius: 50px;
+    
+}
+
+.skills {
+    font-weight: bold;
+    
+
+}
+header {
+    background-color: #091530ec;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    padding: .8rem;
+    /* min-height: 50px;
+    width: 2px; */
+    height: 20px;
+}
+
+header a{
+    font-family: 'Chivo Mono';
+    color: #fff;
+    text-decoration: none;
+    margin: 5px;
+}
+header a:hover{
+    color: #5f76ad;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    background-color: #22376838;
+    height: 5em;
+    max-height: 100%;
+
+}
+
+  @media (max-width: 768px) {
+    .info {
+        text-align: center;
+    }
+    .foto-perfil {
+        display: block;
+        margin: 0 auto;
+    }
+  
 }
