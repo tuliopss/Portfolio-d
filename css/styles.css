@@ -47,7 +47,7 @@ span {
 
 .link {
   font-weight: bold;
-  text-decoration: none;
+  text-decoration: underline;
   color: #fff;
   padding-bottom: 10px;
   margin: 10px;
