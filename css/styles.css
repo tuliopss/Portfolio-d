@@ -47,7 +47,7 @@ span {
 
 .link {
   font-weight: bold;
-  text-decoration: none;
+  text-decoration: underline;
   color: #fff;
   padding-bottom: 10px;
   margin: 10px;
@@ -71,21 +71,30 @@ span {
   flex-direction: column;
   background-color: #22376838;
   box-shadow: 10px 10px 5px rgba(19, 19, 19, 0.76);
-  height: 52vh;
+  height: 70vh;
   max-width: 100%;
   margin: 10px;
   margin-right: 50vh;
   margin-left: 50vh;
   border-radius: 50px;
 }
+
+.sobre-mim {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
 .info h1 {
   font-size: 20px;
   font-weight: bold;
 }
 .foto-perfil {
-  width: 22vh;
-  border-radius: 50%;
-  max-width: 100%;
+  /* width: 200px; */
+  width: 250px;
+  height: 48%;
+  border-radius: 100%;
 }
 .network {
   border: 2px solid white;
