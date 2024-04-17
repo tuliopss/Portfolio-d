@@ -90,14 +90,16 @@ span {
   font-size: 20px;
   font-weight: bold;
 }
+
+.info p {
+  padding-left: 1em;
+}
 .foto-perfil {
-  /* width: 200px; */
-  width: 250px;
+  width: 200px;
+  /* max-width: 250px; */
+  /* width: 250px; */
   height: 48%;
   border-radius: 100%;
-}
-.network {
-  border: 2px solid white;
 }
 
 .skills-container {
@@ -143,6 +145,7 @@ header a:hover {
   background-color: #22376838;
   height: 5em;
   max-height: 100%;
+  border-radius: 24px;
 }
 
 @media (max-width: 768px) {
